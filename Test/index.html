@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Php crud Operations</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+    body{
+    	background-color: #5C7B9C;
+    }
+	#form_top{
+		margin-top: 150px;
+	}
+</style>
+<body>
+
+   <div class="container">
+   	 <div class="row">
+   	 	  <div class="col-md-4"></div>
+          <div class="col-md-4">
+          	 <ul class="list-group" id="form_top">
+				  <li class="list-group-item active">Registration Form</li>
+				  <li class="list-group-item">
+				  	<form action="/action_page.php">
+						  <div class="form-group">
+						    <label for="email">Email address:</label>
+						    <input type="email" class="form-control" id="email">
+						  </div>
+						  <div class="form-group">
+						    <label for="pwd">Password:</label>
+						    <input type="password" class="form-control" id="pwd">
+						  </div>
+						  <div class="form-group form-check">
+						    <label class="form-check-label">
+						      <input class="form-check-input" type="checkbox"> Remember me
+						    </label>
+						  </div>
+						  <button type="submit" class="btn btn-danger">Submit</button>
+						</form>
+				  </li>
+			</ul>
+          </div>
+          <div class="col-md-4"></div>
+   	 </div>
+   </div>
+</body>
+</html>
